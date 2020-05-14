@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.parser.Scanner"/>
+    <fullyQualifiedTypeName name="com.lz.method.MethodDemo"/>
+    <fullyQualifiedTypeName name="com.lz.mechanics.Cat"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.lz.model.Subject"/>
+    <fullyQualifiedTypeName name="com.lz.model.Student"/>
+    <fullyQualifiedTypeName name="com.lz.animal.Cat"/>
+    <fullyQualifiedTypeName name="com.lz.animal.Animal"/>
+    <fullyQualifiedTypeName name="com.lz.practice.Person"/>
+    <fullyQualifiedTypeName name="com.lz.singleton.SingletonOne"/>
+    <fullyQualifiedTypeName name="com.lz.singleton.SingletonEarth"/>
+    <fullyQualifiedTypeName name="com.lz.singleton.SingletonTwo"/>
+    <fullyQualifiedTypeName name="com.lz.singleton.Emperor"/>
+    <fullyQualifiedTypeName name="com.lz.Animal.Animal"/>
+    <fullyQualifiedTypeName name="com.lz.Animal.Cat"/>
+    <fullyQualifiedTypeName name="com.lz.Animal.Master"/>
+    <fullyQualifiedTypeName name="com.lz.Animal.Rectangle"/>
+    <fullyQualifiedTypeName name="sun.net.www.content.text.plain"/>
+    <fullyQualifiedTypeName name="com.lz.tel.INet"/>
+    <fullyQualifiedTypeName name="com.lz.people.Person.Heart"/>
+    <fullyQualifiedTypeName name="com.lz.anonymous.Man"/>
+    <fullyQualifiedTypeName name="com.lz.anonymous.Woman"/>
+    <fullyQualifiedTypeName name="com.lz.anonymous.Person"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

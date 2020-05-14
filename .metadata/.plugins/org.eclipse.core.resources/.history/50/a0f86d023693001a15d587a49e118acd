@@ -1,0 +1,17 @@
+package com.lz.test;
+
+import com.lz.Animal.Cat;
+import com.lz.Animal.Dog;
+import com.lz.Animal.Master;
+
+public class MasterTest {
+	public static void main(String[] args) {
+		
+		Master master = new Master();
+		Cat one = new Cat();
+		Dog two = new Dog();
+		
+		master.feed(cat);
+		master.feed(dog);
+	}
+}

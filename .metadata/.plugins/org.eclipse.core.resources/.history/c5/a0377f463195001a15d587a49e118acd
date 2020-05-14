@@ -1,0 +1,13 @@
+package wrap;
+
+public class WrapperTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Integer one = Integer.valueOf(1000);
+		Integer two = Integer.valueOf(100);
+		System.out.println("one==two的结果："+(one==two));
+		
+	}
+
+}

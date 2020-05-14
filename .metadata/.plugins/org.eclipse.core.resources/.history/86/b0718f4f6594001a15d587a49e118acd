@@ -1,0 +1,7 @@
+package com.lz.test;
+
+public class TryDemoOne {
+	public static void main(String[] args) {
+		
+	}
+}

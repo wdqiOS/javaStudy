@@ -1,0 +1,12 @@
+package com.lz.people;
+
+public class PeopleTest {
+
+	public static void main(String[] args) {
+		
+		Person lili = new Person();
+		lili.age = 12;
+
+	}
+
+}

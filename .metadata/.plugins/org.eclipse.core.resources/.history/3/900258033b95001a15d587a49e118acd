@@ -1,0 +1,13 @@
+package com.lz.string;
+
+public class StringDemo6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// String的不可变性，String对象一旦被创建，则不能修改，是不可变的；所谓的修改其实是创建了新的对象，所指向的内存空间不变
+		String s1 = "lz";
+		s1 = "hello" + s1;
+		System.out.println(s1);
+	}
+
+}

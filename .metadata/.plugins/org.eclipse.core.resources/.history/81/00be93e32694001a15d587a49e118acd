@@ -1,0 +1,16 @@
+package com.lz.people;
+
+public class PeopleTest {
+
+	public static void main(String[] args) {
+		
+		Person lili = new Person();
+		lili.age = 12;
+		
+		// 获取内部类对象实例，方式一：new 外部类.new 内部类
+		Person.Heart myHeart = new Person().new Heart();
+		System.out.println(myHeart.beat());;
+
+	}
+
+}

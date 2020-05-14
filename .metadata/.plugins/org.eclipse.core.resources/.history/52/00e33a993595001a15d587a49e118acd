@@ -1,0 +1,12 @@
+package com.lz.string;
+
+public class StringDemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// length()
+		String str = "JAVA 编程 基础";
+		System.out.println(str.length());
+	}
+
+}

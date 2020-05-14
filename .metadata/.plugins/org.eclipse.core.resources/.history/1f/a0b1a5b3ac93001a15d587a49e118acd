@@ -1,0 +1,12 @@
+package com.lz.tel;
+
+/**
+ * 具有照相能力的接口
+ * 
+ * @author wangdaqiang
+ *
+ */
+public interface IPhoto {
+	// 具有拍照的功能
+	public void photo();
+}

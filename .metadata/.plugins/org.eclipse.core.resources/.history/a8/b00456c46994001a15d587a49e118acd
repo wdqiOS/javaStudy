@@ -1,0 +1,18 @@
+package com.lz.test;
+
+public class TryDemoTwo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int result = test(5, 7);
+		System.out.println(result);
+	}
+	
+	public static int test(int one, int two) {
+		if(one > two) 
+			return one;
+		else 
+			return two;
+	}
+
+}

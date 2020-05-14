@@ -1,0 +1,10 @@
+package com.lz.practice;
+
+public class BallTest {
+	
+	
+	void playBall(Ball ball) {
+		ball.play();
+	}
+	
+}

@@ -1,0 +1,13 @@
+package com.lz.test;
+
+import com.lz.tel.FourthPhone;
+
+public class PhoneTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FourthPhone phone = new FourthPhone();
+		.c
+	}
+
+}

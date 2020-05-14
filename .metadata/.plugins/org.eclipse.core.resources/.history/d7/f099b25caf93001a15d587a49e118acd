@@ -1,0 +1,5 @@
+package com.lz.test;
+
+public interface ISon extends IFather, IFather2 {
+	void run();
+}

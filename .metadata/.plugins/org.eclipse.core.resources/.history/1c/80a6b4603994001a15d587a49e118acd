@@ -1,0 +1,17 @@
+package com.lz.practice;
+
+public class Bear extends Animal implements IAct {
+
+	@Override
+	public void love() {
+		// TODO Auto-generated method stub
+		System.out.println("喜好：");
+	}
+
+	@Override
+	public void act() {
+		// TODO Auto-generated method stub
+		System.out.println("技能：挽着花篮，打着雨伞，自立走秀");
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.lz.practice;
+
+public interface IAct {
+	// 描述技能
+	public abstract void skill();
+	// 描述表演
+	public abstract void act();
+}

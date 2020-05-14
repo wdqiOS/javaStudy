@@ -1,0 +1,12 @@
+package com.lz.tel;
+
+/**
+ * 上网
+ * @author wangdaqiang
+ *
+ */
+// 接口访问修饰符：public 默认
+public interface INet {
+	// 接口中抽象方法可以不写abstract关键字
+	public void network();
+}

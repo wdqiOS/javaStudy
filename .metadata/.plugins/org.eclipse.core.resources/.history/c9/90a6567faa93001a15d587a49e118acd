@@ -1,0 +1,35 @@
+package com.lz.test;
+
+import com.lz.tel.Camera;
+import com.lz.tel.FourthPhone;
+import com.lz.tel.INet;
+import com.lz.tel.IPhoto;
+
+public class PhoneTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FourthPhone phone = new FourthPhone();
+		phone.call();
+		phone.message();
+		phone.vedio();
+		phone.music();
+		phone.photo();
+		phone.game();
+		phone.network();
+		
+		System.out.println("=============");
+		IPhoto ip = new FourthPhone();
+		ip.photo();
+		
+		ip = new Camera();
+		ip.photo();
+		System.out.println("=============");
+		
+		System.out.println(INet.TEMP);
+		INet net = new SmartWatch();
+		System.out.println(net.TEMP);
+		
+	}
+
+}

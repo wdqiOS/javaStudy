@@ -1,0 +1,21 @@
+package com.lz.string;
+
+public class StringBuilderDemo1 {
+
+	public static void main(String[] args) {
+		// 定义一个字符串"你好"
+		StringBuilder str = new StringBuilder("你好");
+		System.out.println("拼接前："+str);
+		// 在"你好"后面添加内容，将字符串变成"你好，lz"
+		// append
+		str.append(',').append("li!");
+		System.out.println("拼接后："+str);
+		
+		// 将字符串编程"你好,lz!"
+		// 两种方式
+		// 1. 使用delete方法删除lz，然后再插入LZ
+		str.delete(3, 5);
+		System.out.println("delete后："+str);
+	}
+
+}

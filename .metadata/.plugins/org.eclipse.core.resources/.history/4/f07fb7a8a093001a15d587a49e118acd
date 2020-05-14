@@ -1,0 +1,28 @@
+package com.lz.Animal;
+
+public class Master {
+	/* 喂宠物
+	 * 喂猫咪：吃完东西后，主人会带去玩线球
+	 * 喂狗狗：吃完东西后，主人会带着狗狗去睡觉
+	 * 样兔子、鹦鹉、乌龟....
+	 */
+	
+	public void feed(Cat cat) {
+		cat.eat();
+		cat.playBall();
+	}
+	public void feed(Dog dog) {
+		dog.eat();
+		dog.sleep();
+	}
+	
+	public void feed(Animal obj) {
+		if(obj instanceof Cat) {
+			Cat temp = (Cat)obj;
+			temp.eat();
+			temp.playBall();
+		} else if(obj instanceof Dog) {
+			
+		}
+	}
+}

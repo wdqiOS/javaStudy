@@ -1,0 +1,15 @@
+package com.lz.practice;
+
+public class Parrot extends Animal {
+	private String type;
+	
+	
+	
+
+	@Override
+	public void love() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

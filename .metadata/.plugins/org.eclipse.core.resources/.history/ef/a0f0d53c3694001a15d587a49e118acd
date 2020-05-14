@@ -1,0 +1,11 @@
+package com.lz.practice;
+
+public class LIon extends Animal {
+
+	@Override
+	public void love() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
