@@ -1,2 +1,2 @@
-INDEX VERSION 1.131+/Users/wangdaqiang/Desktop/java/.metadata/.plugins/org.eclipse.jdt.core
-1277319819.index
+INDEX VERSION 1.131+/Users/wangdaqiang/Desktop/javaStudy/.metadata/.plugins/org.eclipse.jdt.core
+1912711933.index

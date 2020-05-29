@@ -1,5 +1,0 @@
-package com.lz.Animal;
-
-public class Fish extends Animal {
-
-}

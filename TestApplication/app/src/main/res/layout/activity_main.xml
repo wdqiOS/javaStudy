@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@mipmap/ic_launcher"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign up"
+            android:layout_marginTop="70dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weiwei weiwei weiwei weiwei  weiwei \nweiwei weiwei weiwei "
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal" />
+
+<!--
+    android:src="@mipmap/ic_launcher_round" 指定前景图片资源
+    android:background="@mipmap/ic_launcher_round" 设置背景
+-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:background="#ff0000"
+            android:layout_margin="10dp"
+            android:layout_gravity="center" />
+
+<!--        <ImageButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@mipmap/ic_launcher"-->
+<!--            android:tooltipText="你好！"-->
+<!--            />-->
+
+<!--
+android:inputType="textEmailAddress" 输入类型
+number 只能正整数
+textPassword 密码
+numberSigned 整数
+numberDecimal 小数
+numberDecimal|numberSigned 小数|整数
+
+android:hint="Name and Surname" 提示文字
+android:textColorHint="#cccccc" 提示文字颜色
+
+-->
+
+        <ProgressBar
+            android:id="@+id/pro_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:visibility="invisible"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+           android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:inputType="numberDecimal|numberSigned"
+            android:hint="Name and Surname"
+            android:gravity="center"
+            android:textColorHint="#cccccc"
+            android:background="@mipmap/ic_launcher_round"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textEmailAddress"
+            android:hint="Email Address"
+            android:gravity="center_horizontal"
+            android:textColorHint="#cccccc"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:inputType="phone"
+            android:hint="Phone"
+            android:gravity="center_horizontal"
+            android:textColorHint="#cccccc"/>
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:hint="Password"
+            android:gravity="center_horizontal"
+            android:textColorHint="#cccccc"
+            android:inputType="textPassword"
+            android:maxLength="12"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/ic_launcher"
+            android:onClick="register"
+            android:text="REGISTER"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

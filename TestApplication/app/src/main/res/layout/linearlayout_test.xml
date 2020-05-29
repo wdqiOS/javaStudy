@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- vertical: 垂直的    horizontal:水平的-->
+    <!--  layout_weight: 权重   -->
+    <!--
+    android:layout_margin="20dp"
+    android:padding="20dp"
+  -->
+<!--
+android:layout_weight="1" 后设置布局；按比例分配尺寸
+
+android:layout_gravity="center"; 内部控件相等于父容器的位置
+-->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:text="lizhe1lizhe1lizhe1lizhe1lizhe1lizhe1lizhe1lizhe1"
+        android:layout_weight="1"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:text="lizhe2"
+        android:layout_weight="2"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#0000ff"
+        android:text="lizhe3"
+        android:layout_weight="2"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>
