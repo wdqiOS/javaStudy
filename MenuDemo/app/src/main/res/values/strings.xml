@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MenuDemo</string>
+    <string name="menu_context">上下文菜单</string>
+    <string name="menu_pop">弹出式菜单</string>
+</resources>

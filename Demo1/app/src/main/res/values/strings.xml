@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Demo1</string>
+    <string name="start_select_food">开始点餐</string>
+    <string name="edit_text_name">姓名：</string>
+    <string name="edit_text_input_hint_name">请输入姓名</string>
+    <string name="sex">性别：</string>
+    <string name="sex_man">男</string>
+    <string name="sex_woman">女</string>
+    <string name="like">喜好：</string>
+    <string name="show_msg">显示信息</string>
+    <string name="show_next">下一个</string>
+
+</resources>

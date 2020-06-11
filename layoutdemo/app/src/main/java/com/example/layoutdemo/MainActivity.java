@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn4:
                 Log.e("btn", "约束布局");
+                startActivity(new Intent(this, ConstrainActivity.class));
                 break;
             default:
                 break;
