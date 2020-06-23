@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/Users/wangdaqiang/Desktop/javaStudy/codes/05/03_java5对数组的新语法支持/.metadata/.plugins/org.eclipse.jdt.core
